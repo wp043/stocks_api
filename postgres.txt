@@ -1,0 +1,10 @@
+sudo -i -u wp043
+psql
+CREATE DATABASE stocksdb;
+\c stocksdb;
+CREATE TABLE stocks (
+stocksdb(#	stockid SERIAL PRIMARY KEY,
+stocksdb(#	name TEXT,
+stocksdb(#	price INT,
+stocksdb(#	company TEXT
+stocksdb(# );
